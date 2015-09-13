@@ -1,0 +1,19 @@
+{
+  "name": "Cloud-Code-Express",
+  "version": "1.0.0",
+  "description": "Example of using Cloud Code on Express",
+  "main": "server",
+  "scripts": {
+    "start": "node server.js",
+    "register": "node scripts/register-webhooks.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "body-parser": "~1.12.4",
+    "parse": "~1.6",
+    "parse-cloud-express": "~1.0"
+  },
+  "engines": {
+    "node": "0.12.2"
+  }
+}
